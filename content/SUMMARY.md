@@ -2,11 +2,11 @@
 # Labs
 
 - [Introduction](./Labs/Introduction.md)
-- [Multi-Threaded Scripting & Process Management](./Multi-ThreadedScripting-ProcessManagement/Multi-ThreadedScripting-ProcessManagement.md)
+- [Bash Scripting](Bash/Bash_Scripting.md)
+- [Multi-Threaded Scripting & Process Management]()
 - [Learning C]()
 - [System Calls]()
 - [Exploring Directories]()
-- [Bash Scripting]()
 - [Shell Commands]()
 - [Redirection]()
 - [Man-Pages]()
