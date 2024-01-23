@@ -2,18 +2,11 @@
 
 ---
 
-## JupyterHub
+## Bash system
 
-1. Navigate to [JupyterHub](https://jupyterhub.canterbury.ac.uk/) 
-   - an online environment where you can code and explore the Shell.
-2. Login to [JupyterHub](https://jupyterhub.canterbury.ac.uk/) using your CCCU user account credentials.
-
-3. Start your server... 
-   ![](../Exploring_Directories/fig/jh-server.png)
-
-1. Open shell environment and `cd` to `NOS`, `$ cd ~/NOS`
-![](../Exploring_Directories//fig/jh-terminal-launch.png)
-1. Make new directory, `$ mkdir scripting`
+1. Navigate to a terminal to with a bash shell 
+2. Make a new directory with the `mkdir` command called `COMP1712`, and the change to that directory `$ cd ~/COMP1712`
+3. Make new directory, `$ mkdir scripting` and again change directory to `scripting`
 
 ----
 
