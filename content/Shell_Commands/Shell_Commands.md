@@ -1,20 +1,6 @@
 # Shell Commands
 
 ---
-
-## JupyterHub
-
-1. Navigate to [JupyterHub](https://jupyterhub.canterbury.ac.uk/) 
-   - an online environment where you can code and explore the Shell.
-2. Login to [JupyterHub](https://jupyterhub.canterbury.ac.uk/) using your CCCU user account credentials.
-
-3. Start your server... 
-   ![](../Exploring_Directories/fig/jh-server.png)
-
-1. Open shell environment and `cd` to `NOS`, `$ cd ~/NOS`
-![](../Exploring_Directories//fig/jh-terminal-launch.png)
-1. Make new directory, `$ mkdir shell_commands`
-
 ## 1. Dates
 
 1. First run the `date` command in the terminal.
