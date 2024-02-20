@@ -9,7 +9,6 @@ There are actually many ways to produce manual pages. The `man(1)` command needs
 
 ## Conventions in manual pages
 
-
 The important thing is that the formatted page follows manpage typesetting and other conventions, so that readers can efficiently extract the needed information from them. This bit is important: manpages are **reference documentation**, intended to **quickly answer questions** like "what is the purpose of this command?" or "is there an option to show more information about files?".
 
 Here are some of the more important conventions:
@@ -32,8 +31,6 @@ add examples for the common cases, not just special ones: you may think your pro
 ----
 
 ## Example manual page
-
-> You can either do complete this on a NUC, your own linux machine, or gitpod.
 
 `troff` is a programming language for typesetting. It has a macro facility, and several macro packages have been written for writing manual pages. The most common of these is the `-man` one. Here’s an example of a `manpage`, using that, reproduce this opening a file called `corrupt.1`
 
@@ -78,6 +75,7 @@ Every manual page should start by specifying its title:
 ```
 .TH CORRUPT 1
 ```
+
 Here, **CORRUPT** is the name of the manual page, and **1** is the section in which the manual page belongs (section 1 for user commands, 2 for system calls, etc; see man-pages(7)` for the whole list).
 
 You can additionally add three more pieces of information: the date of this revision of the manual page, where the program it documents came from, and the title of the whole book to which this page belongs to. 
