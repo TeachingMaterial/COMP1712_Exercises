@@ -136,18 +136,18 @@ Content
 7. Hybrid computer architectures have taken over the computer system consumer market. What is a Modern hybrid architecture?
 
     <details>
-    <summary>Answ  - [Android Architecture](#android-architecture)
-  - [Android Permissions etc](#android-permissions-etc)
-  - [Data structures](#data-structures)opriate. For example Intel Pentium Pro processor families roots are with CISC but it uses both CISC and RISC features. Intel X86 origin is RISC architecture but they also use same hybrid architecture approach and remain backwardly compatible to run millions of old programmes of this processor family     
+    <summary>Answer</summary>
+    
+    Modern processors are a hybrid of both RISC and CISC architectures, using the best of each architecture where it is most appropriate. For example Intel Pentium Pro processor families roots are with CISC but it uses both CISC and RISC features. Intel X86 origin is RISC architecture but they also use same hybrid architecture approach and remain backwardly compatible to run millions of old programmes of this processor family  
 
     </details>
 
-8. Computer systems are improving continuously. Describe Advanced Architectures features.
+8. Computer systems are improving continuously. Describe Advanced architecture features.
 
     <details>
     <summary></summary>
 
-    There is continuous development in the advanced processors to run programs as fast as possible, as cheap as possible. All von Neumann processors used in mobile phone, microwave, TV, desktop. Our aim is to design high speed and low cost processors. Following are the few advanced features that can run programs more efficiently: 
+    There is continuous development in advanced processors to run programs as fast as possible, as cheap as possible. All von Neumann processors used in mobile phone, microwave, TV, desktop. Our aim is to design high speed and low cost processors. Following are the few advanced features that can run programs more efficiently: 
 
     - Increasing Clock Speed 
 
@@ -171,11 +171,15 @@ Content
 
     </details>
 
+---------------------------
 
 ## OS
-  - [Android Architecture](#android-architecture)
-  - [Android Permissions etc](#android-permissions-etc)
-  - [Data structures](#data-structures)
+
+10. Explain the boot process, and draw an overview of the process.
+
+    <details>
+    <summary>Answer</summary>
+
     - **BIOS Stage**:
       -  When the machine is powered on BIOS is the first one to be called to verify if the hardware is present in the machine and if it is functioning.​
       -  After a successful test, BIOS checks the MBR (Master Boot Record) in the hard disk to check if it refers to the location of the boot loader.​
@@ -190,23 +194,27 @@ Content
     - **Kernel Stage**
       - In the kernel stage of the Linux boot sequence, the Linux kernel based on the result of **linuxrc** can then mount the real root file system​
       - The real root file system in Linux is referenced as "/" and it is where all other sub-directories and files visible when Linux is running exist​
-      - init process is spawned and all daemons.
+      - init process dis spawned and all daemons.
 
     ![](./figures/allbootprocess.png)
 
     </details>
 
-1.  What are the components of a Linux operating system?
+11.  What are the components of a Linux operating system?
+        <details>
+        <summary>Answer</summary>
 
-    <details>
-    <summary>Answer</summary>
-    - Kernel
-    - System Library
-    - System Utility
-    - User Application
-    - Hardware Platform
+       - Kernel
 
-    </details>
+       - System Library
+
+       - System Utility
+
+       - User Application
+
+       - Hardware Platform
+
+        </details>
 
 
 12. List the different types of operating systems. 
@@ -277,6 +285,7 @@ Content
         
         </details>
 
+-----------------------
 
 ## Shell
 
@@ -306,7 +315,7 @@ Content
     - `d` means a directory
     - `l` means a link to another place.
 
-    </details>**Regular Expressions**
+    </details>
     
     <details>
     <summary>Answer</summary>
@@ -317,7 +326,7 @@ Content
 
     </details>
 
-19. Explain how the following two lines when the script is invoked from the CLI: 
+17. Explain how the following two lines when the script is invoked from the CLI: 
 
     - shebang one
         ```sh
@@ -350,7 +359,7 @@ Content
       - `awk` then prints the second field to standard out. Which in this case would be the OS's name.  
     </details>
 
-20. What does `>` and `>>` mean? Illustrate with the following example:
+18. What does `>` and `>>` mean? Illustrate with the following example:
 
     ```sh
     $ ls -l ~/currentuser/ > file
